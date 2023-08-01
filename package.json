@@ -1,0 +1,28 @@
+{
+  "name": "slotegrator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "lint:scss": "stylelint 'src/**/*.scss'",
+    "lint:js": "jshint src/js/*.js",
+    "lint:html": "htmlhint *.html",
+    "lint": "npm run lint:scss && npm run lint:js && npm run lint:html",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "htmlhint": "^1.1.4",
+    "jshint": "^2.13.6",
+    "parcel": "^2.9.3",
+    "prettier": "^3.0.0",
+    "sass": "^1.64.1",
+    "stylelint": "^15.10.2",
+    "stylelint-config-recommended": "^13.0.0",
+    "stylelint-scss": "^5.0.1"
+  }
+}

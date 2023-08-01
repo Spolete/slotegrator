@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-recommended",
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+
+    "scss/dollar-variable-colon-space-after": "always",
+    "scss/dollar-variable-colon-space-before": "never"
+  }
+}
